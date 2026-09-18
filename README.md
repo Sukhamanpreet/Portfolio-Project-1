@@ -3,7 +3,7 @@
 
 An end-to-end data analysis portfolio project: raw data → cleaning → EDA → interactive
 Excel dashboard. Built to demonstrate a full analyst workflow using Python (pandas) for
-data prep and Excel (formulas + charts, no macros) for analysis and reporting.
+data prep and Excel for analysis and reporting.
 
 **[Download the workbook: `Superstore_Sales_Analysis.xlsx`](./Superstore_Sales_Analysis.xlsx)** ·
 
@@ -59,6 +59,10 @@ The `EDA_Summary` tab in the workbook breaks the cleaned data down by Category, 
 Segment, Sub-Category, month, top products, top customers, and discount level — all as
 `SUMIFS`/`AVERAGEIF` formulas against the cleaned table, so they recalculate if the data changes.
 
+<img width="456" height="162" alt="image" src="https://github.com/user-attachments/assets/4a879a13-ca6e-4cf0-bb93-1c865cd30cd0" />
+
+<img width="226" height="89" alt="image" src="https://github.com/user-attachments/assets/1b19d713-05c4-4984-9ca2-43960531c0c3" />
+
 **Headline findings:**
 - Overall profit margin is thin — **2.3%** on $4.22M of sales.
 - **Furniture loses money overall** (-2.0% margin on $1.12M sales), dragged down by Chairs
@@ -69,7 +73,22 @@ Segment, Sub-Category, month, top products, top customers, and discount level �
 - West and South regions run thinner margins (~1.3–1.4%) than Central and East (~3.0–3.2%),
   despite comparable sales volumes — worth a follow-up into regional discount practices.
 
-## 4. Interactive dashboard (Excel)
+## 4. Visualization with Python
+
+## Total Sales by Category
+<img width="550" height="434" alt="image" src="https://github.com/user-attachments/assets/fe63f30b-8c77-4458-9539-3aee580eb536" />
+
+## Total Profit by Category
+<img width="574" height="434" alt="image" src="https://github.com/user-attachments/assets/8f712393-d1b6-4c9f-b327-60ecd124ed90" />
+
+## Profit by regions
+<img width="883" height="468" alt="image" src="https://github.com/user-attachments/assets/71b98525-f03f-41d7-99e5-7958291c70a6" />
+
+## Monthly sales trend by years
+<img width="1093" height="399" alt="image" src="https://github.com/user-attachments/assets/f003a382-9df7-46af-bfb8-e6e80ccb0921" />
+
+
+## 5. Interactive dashboard (Excel)
 
 The `Dashboard` tab has three dropdown filters (Region, Category, Year) built with Excel data
 validation — no macros. Every KPI card and chart is a formula bound to those dropdowns
