@@ -27,6 +27,9 @@ mixed date formats (`MM/DD/YYYY` text mixed with proper dates), inconsistent tex
 34 exact duplicate rows, and a handful of data-entry typos (negative quantities, a ship date
 before the order date).
 
+<img width="388" height="392" alt="image" src="https://github.com/user-attachments/assets/91dbb2a2-0d71-418a-a1c4-18bee487f2a6" />
+
+
 ## 2. Cleaning
 
 `scripts/clean_data.py` is the pandas pipeline that turns the raw export into an analysis-ready
